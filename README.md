@@ -1,5 +1,8 @@
 # Part 2 · 表情驱动的直播 AR 互动原型
 
+**在线测试：**[打开直播 AR 演示](https://lana-rain.github.io/part2-expression-ar-demo/)（允许浏览器使用摄像头，无需安装）。  
+**下载源码：**点击本仓库的 **Code → Download ZIP**。
+
 这是一个在浏览器里运行的 TikTok LIVE 风格**独立原型**，不是 TikTok 官方产品，也不接入真实直播流、账号、礼物支付或金币。打开网页并授权摄像头后，默认的自然互动模式中，主播微笑会持续下雨；确认开口大笑，或有足够面部证据的捂嘴大笑，会持续播放预制烟花。表情稳定回到平静时特效渐隐；微笑和大笑可以直接切换，无须先恢复无表情。较亮的烟花火星会在跟随头部移动的二维近似边界折返，产生局部二次碎花。实验台还可切换礼物后短窗、手动 PK 阶段和手动话题片段，用来比较玩法何时开放更合适；这些是产品假设，不是原始需求指定的入口。
 
 仓库结构：`app/` 是网页源码与测试，`docs/` 是需求拆解、验证说明及 [Part 2 PDF 介绍](docs/part2-requirement-decomposition-and-retrospective.pdf)。更详细的运行方式见 [app/README.md](app/README.md)。
@@ -8,7 +11,7 @@
 
 ## 在线体验
 
-上传本仓库到 GitHub 后，在仓库的 **Settings → Pages → Build and deployment** 中把 Source 设为 **GitHub Actions**。推送到 `main` 会自动运行测试、构建并部署；`Actions` 页面也可以手动运行 **Build and deploy AR live demo**。部署完成后，在仓库的 Pages 设置页找到 HTTPS 地址。
+直接打开[在线演示](https://lana-rain.github.io/part2-expression-ar-demo/)即可测试。仓库使用 GitHub Actions 自动运行测试、构建并发布到 GitHub Pages。
 
 1. 用支持摄像头的桌面或移动浏览器打开 HTTPS 页面，并允许使用摄像头。页面只请求视频，不请求麦克风。
 2. 闭嘴、嘴角上扬：观察顶部云聚拢、雨淋到发顶及镜头水滴。
