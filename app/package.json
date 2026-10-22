@@ -1,0 +1,18 @@
+{
+  "name": "part2-expression-ar-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host localhost --port 5173 --strictPort",
+    "build": "vite build && node scripts/prune-dist.mjs",
+    "preview": "vite preview --host localhost --port 5173 --strictPort",
+    "test": "node --test src/*.test.js"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.1.1"
+  },
+  "devDependencies": {
+    "vite": "8.3.4"
+  }
+}
