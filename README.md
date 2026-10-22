@@ -1,7 +1,8 @@
 # Part 2 · 表情驱动的直播 AR 互动原型
 
-**在线测试：**[打开直播 AR 演示](https://lana-rain.github.io/part2-expression-ar-demo/)（允许浏览器使用摄像头，无需安装）。  
-**下载源码：**点击本仓库的 **Code → Download ZIP**。
+在线测试：[打开直播 AR 演示](https://lana-rain.github.io/part2-expression-ar-demo/)（允许浏览器使用摄像头，无需安装）。
+
+下载源码：[获取项目 ZIP](https://github.com/lana-rain/part2-expression-ar-demo/archive/refs/heads/main.zip)。
 
 这是一个在浏览器里运行的 TikTok LIVE 风格**独立原型**，不是 TikTok 官方产品，也不接入真实直播流、账号、礼物支付或金币。打开网页并授权摄像头后，默认的自然互动模式中，主播微笑会持续下雨；确认开口大笑，或有足够面部证据的捂嘴大笑，会持续播放预制烟花。表情稳定回到平静时特效渐隐；微笑和大笑可以直接切换，无须先恢复无表情。较亮的烟花火星会在跟随头部移动的二维近似边界折返，产生局部二次碎花。实验台还可切换礼物后短窗、手动 PK 阶段和手动话题片段，用来比较玩法何时开放更合适；这些是产品假设，不是原始需求指定的入口。
 
